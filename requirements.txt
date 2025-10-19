@@ -1,0 +1,24 @@
+# Core Dependencies
+streamlit>=1.28.0
+pandas>=2.0.0
+plotly>=6.0.0
+requests>=2.25.0
+beautifulsoup4>=4.9.0
+lxml>=4.6.0
+
+# AI Analysis Dependencies
+google-generativeai>=0.3.0
+unstructured>=0.10.0
+python-dotenv>=0.19.0
+
+# Web Scraping Dependencies
+selenium>=4.0.0
+webdriver-manager>=3.8.0
+
+# Data Processing
+numpy>=1.21.0
+openpyxl>=3.0.0
+
+# Optional Dependencies
+watchdog>=2.1.0
+jupyter>=1.0.0

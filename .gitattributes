@@ -1,0 +1,18 @@
+# Large data files
+*.csv filter=lfs diff=lfs merge=lfs -text
+*.kml filter=lfs diff=lfs merge=lfs -text
+*.html filter=lfs diff=lfs merge=lfs -text
+*.json filter=lfs diff=lfs merge=lfs -text
+*.md filter=lfs diff=lfs merge=lfs -text
+
+# Raw HTML output directory
+raw_html_output/*.html filter=lfs diff=lfs merge=lfs -text
+# Content directory
+content/**/*.md filter=lfs diff=lfs merge=lfs -text
+content/**/*.html filter=lfs diff=lfs merge=lfs -text
+content/**/*.json filter=lfs diff=lfs merge=lfs -text
+# Search and result directories
+search/*.json filter=lfs diff=lfs merge=lfs -text
+result/*.json filter=lfs diff=lfs merge=lfs -text
+summary/*.json filter=lfs diff=lfs merge=lfs -text
+README.md !text !filter !merge !diff
