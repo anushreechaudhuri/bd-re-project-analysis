@@ -3,7 +3,6 @@
 *.kml filter=lfs diff=lfs merge=lfs -text
 *.html filter=lfs diff=lfs merge=lfs -text
 *.json filter=lfs diff=lfs merge=lfs -text
-*.md filter=lfs diff=lfs merge=lfs -text
 
 # Raw HTML output directory
 raw_html_output/*.html filter=lfs diff=lfs merge=lfs -text
