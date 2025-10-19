@@ -40,7 +40,7 @@ st.markdown("""
         font-size: 2.5rem;
         font-weight: bold;
         color: #2E8B57;
-        text-align: center;
+        text-align: left;
         margin-bottom: 2rem;
     }
     .project-card {
@@ -244,7 +244,7 @@ def display_project_details(project_id, df, summary_data):
 
 def main():
     # Header
-    st.markdown('<h1 class="main-header">🌱 BD Solar Project Dashboard</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">BD Solar Project Dashboard</h1>', unsafe_allow_html=True)
     
     # Load data
     df, df_with_coords, summary_data = load_data()
