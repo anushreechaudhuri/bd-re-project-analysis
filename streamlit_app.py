@@ -27,7 +27,7 @@ def parse_capacity(capacity_str):
 
 # Page configuration
 st.set_page_config(
-    page_title="Renewable Energy Projects Dashboard",
+    page_title="BD Solar Project Dashboard",
     page_icon="🌱",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -244,7 +244,7 @@ def display_project_details(project_id, df, summary_data):
 
 def main():
     # Header
-    st.markdown('<h1 class="main-header">🌱 Renewable Energy Projects Dashboard</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">🌱 BD Solar Project Dashboard</h1>', unsafe_allow_html=True)
     
     # Load data
     df, df_with_coords, summary_data = load_data()
